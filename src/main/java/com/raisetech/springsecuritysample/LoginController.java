@@ -7,11 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.security.Principal;
 
 @Controller
-public class HelloController {
+public class LoginController {
 
-    @GetMapping("/hello")
-    public String hello(Model model, Principal principal) {
-        model.addAttribute("username", principal.getName());
-        return "hello";
+    @GetMapping("/login")
+    public String login() {
+        return "login";
     }
 }
