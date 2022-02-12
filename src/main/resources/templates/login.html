@@ -6,6 +6,9 @@
 </head>
 <body>
 <form th:action="@{/perform_login}" method="post">
+    <p th:if="${session['SPRING_SECURITY_LAST_EXCEPTION']} != null"
+       th:text="${session['SPRING_SECURITY_LAST_EXCEPTION'].message}"
+       style="color: red"></p>
     <div>
         <label for="username">Username</label>
         <input type="text" name="username" id="username">
