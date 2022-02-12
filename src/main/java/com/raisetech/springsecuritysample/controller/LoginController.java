@@ -1,4 +1,4 @@
-package com.raisetech.springsecuritysample;
+package com.raisetech.springsecuritysample.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
