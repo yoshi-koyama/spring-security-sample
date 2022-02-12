@@ -103,9 +103,11 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/9a7b58bb2987c680c5
 `./gradlew bootRun`
 
 アプリケーションが起動していることを確認する
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 12 45" src="https://user-images.githubusercontent.com/62045457/153606850-3c687cff-ce98-424e-b076-4683feacd541.png">
 
 `localhost:8080/hello`にアクセスしても`http://localhost:8080/login`にリダイレクトされ、ログインページが開かれることを確認する
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 13 52" src="https://user-images.githubusercontent.com/62045457/153607037-6004123b-880b-4e6d-ae53-e883ed9625d7.png">
 
 下記を入力して`Login`ボタンを押す
@@ -146,6 +148,7 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/9f6b3003872c7f0b65
 `./gradlew bootRun`
 
 アプリケーションが起動していることを確認する
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 21 21" src="https://user-images.githubusercontent.com/62045457/153608316-5d888be2-30c9-4023-851d-fe559f8cf386.png">
 
 下記を入力して`Login`ボタンを押す
@@ -153,6 +156,7 @@ Username: `suzuki`
 Password: `password_suzuki`
 
 `http://localhost:8080/login?error`に遷移しエラーメッセージが赤字で表示されること
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 22 41" src="https://user-images.githubusercontent.com/62045457/153608533-165283a5-03e2-47e2-8fa4-7335f9eff589.png">
 
 ターミナルから`ctrl + c`を押下してアプリケーションを終了する
