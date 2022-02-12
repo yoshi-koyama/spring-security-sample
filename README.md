@@ -80,6 +80,7 @@ Password: `コンソールに出力されたパスワード`
 <img width="400" alt="スクリーンショット 2022-02-11 23 03 17" src="https://user-images.githubusercontent.com/62045457/153605496-2f4a9819-6ba2-47e6-b947-0c0726a0a4c2.png">
 
 `logout`リンクを押下するとログアウトの確認画面が表示され、`Log Out`ボタンを押下するとログイン画面が表示されること
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 06 27" src="https://user-images.githubusercontent.com/62045457/153605852-198a24b3-05df-476a-8ded-0410fbc6d4d2.png">
 
 <img width="400" alt="スクリーンショット 2022-02-11 23 06 48" src="https://user-images.githubusercontent.com/62045457/153605894-e92c23b3-4f57-4a2a-a798-a69d0fde44a7.png">
@@ -115,6 +116,7 @@ Username: `koyama`
 Password: `password_koyama`
 
 `localhost:8080/hello`に遷移し、`hello.html`の内容が表示され、`username is koyama`と表示されること
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 15 34" src="https://user-images.githubusercontent.com/62045457/153607373-d2ebcb21-3109-4322-9dad-28fcd1888e08.png">
 
 `logout`リンクを押下するとログイン画面に遷移すること
@@ -124,6 +126,7 @@ Username: `tanaka`
 Password: `password_tanaka`
 
 `localhost:8080/hello`に遷移し、`hello.html`の内容が表示され、`username is tanaka`と表示されること
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 17 38" src="https://user-images.githubusercontent.com/62045457/153607705-64042cf6-0ffc-4c2a-9edf-85a53a71802e.png">
 
 下記を入力して`Login`ボタンを押す
@@ -132,6 +135,7 @@ Password: `password_suzuki`
 
 `http://localhost:8080/login?error`に遷移していること
 いま時点ではエラーのメッセージが何も表示されないこと
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 18 28" src="https://user-images.githubusercontent.com/62045457/153607973-8f4eab40-40bf-49a5-aa02-ddc00874de7d.png">
 
 ターミナルから`ctrl + c`を押下してアプリケーションを終了する
@@ -176,6 +180,7 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/ced335f0730a62dc11
 https://github.com/yoshi-koyama/spring-security-sample/commit/00130f989824efe3b750c04842e2f2824ef13415
 
 `$ docker-compose up -d`
+
 <img width="400" alt="スクリーンショット 2022-02-11 23 31 50" src="https://user-images.githubusercontent.com/62045457/153610101-9e0b90dc-5277-49ec-9bea-118e52e81817.png">
 
 ### 動作確認
