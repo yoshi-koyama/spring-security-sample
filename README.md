@@ -72,7 +72,9 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/8c680191bf71aa4a30
 <img width="400" alt="スクリーンショット 2022-02-11 23 00 40" src="https://user-images.githubusercontent.com/62045457/153604955-555973f4-e7e2-4cba-b481-bd90588fb097.png">
 
 下記を入力して`Sign in`ボタンを押す
+
 Username: `user`
+
 Password: `コンソールに出力されたパスワード`
 
 `localhost:8080/hello`に遷移し、`hello.html`の内容が表示されること
@@ -112,7 +114,9 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/9a7b58bb2987c680c5
 <img width="400" alt="スクリーンショット 2022-02-11 23 13 52" src="https://user-images.githubusercontent.com/62045457/153607037-6004123b-880b-4e6d-ae53-e883ed9625d7.png">
 
 下記を入力して`Login`ボタンを押す
+
 Username: `koyama`
+
 Password: `password_koyama`
 
 `localhost:8080/hello`に遷移し、`hello.html`の内容が表示され、`username is koyama`と表示されること
@@ -122,15 +126,20 @@ Password: `password_koyama`
 `logout`リンクを押下するとログイン画面に遷移すること
 
 下記を入力して`Login`ボタンを押す
+
 Username: `tanaka`
+
 Password: `password_tanaka`
 
 `localhost:8080/hello`に遷移し、`hello.html`の内容が表示され、`username is tanaka`と表示されること
 
 <img width="400" alt="スクリーンショット 2022-02-11 23 17 38" src="https://user-images.githubusercontent.com/62045457/153607705-64042cf6-0ffc-4c2a-9edf-85a53a71802e.png">
 
+
 下記を入力して`Login`ボタンを押す
+
 Username: `suzuki`
+
 Password: `password_suzuki`
 
 `http://localhost:8080/login?error`に遷移していること
@@ -143,6 +152,7 @@ Password: `password_suzuki`
 ## エラーメッセージを表示するように変更
 
 修正内容のコミットを参考に修正を加える
+
 https://github.com/yoshi-koyama/spring-security-sample/commit/9f6b3003872c7f0b65838a251918a738c7ca52db
 
 ### 動作確認
@@ -156,7 +166,9 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/9f6b3003872c7f0b65
 <img width="400" alt="スクリーンショット 2022-02-11 23 21 21" src="https://user-images.githubusercontent.com/62045457/153608316-5d888be2-30c9-4023-851d-fe559f8cf386.png">
 
 下記を入力して`Login`ボタンを押す
+
 Username: `suzuki`
+
 Password: `password_suzuki`
 
 `http://localhost:8080/login?error`に遷移しエラーメッセージが赤字で表示されること
@@ -168,6 +180,7 @@ Password: `password_suzuki`
 ## ディレクトリ構成を改善
 
 修正内容のコミットを参考に修正を加える
+
 https://github.com/yoshi-koyama/spring-security-sample/commit/ced335f0730a62dc117aeb6aa2a083c5440e2453
 
 ### 動作確認
@@ -177,6 +190,7 @@ https://github.com/yoshi-koyama/spring-security-sample/commit/ced335f0730a62dc11
 ## Dockerで動作するようにする
 
 修正内容のコミットを参考に修正を加える
+
 https://github.com/yoshi-koyama/spring-security-sample/commit/00130f989824efe3b750c04842e2f2824ef13415
 
 `$ docker-compose up -d`
