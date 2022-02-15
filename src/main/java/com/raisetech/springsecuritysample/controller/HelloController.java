@@ -1,4 +1,4 @@
-package com.raisetech.springsecuritysample;
+package com.raisetech.springsecuritysample.controller;
 
 
 import java.security.Principal;
